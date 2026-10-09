@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [we wesam AL-aghbar] |
+| **Student ID** | [446052681] |
+| **University Email** | [446052681]@std.psau.edu.sa |
+| **GitHub Username** | [wed-w-esam] |
+| **Repository Link** | [https://github.com/wed-w-esam/OS-Assignment1-Wed-Wesam] |
  
 ---
 
@@ -129,68 +129,69 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [0ct 7, 2026, 11:30 AM]
+**What I did**:Completed Part 1 and implemented Feature 1 (Priority).
 
-**Details**:
+**Details**:I set up my assignment repository and added a priority field to the Process class. I also assigned a random priority to each process and displayed its priority .when adding it to the ready queue.
 
-**Challenges**:
+**Challenges**:I needed to understand where to add the priority field and how to display it without changing the FIFO scheduling behavior.
 
-**Solution**:
+**Solution**:I followed the existing code structure, added the priority-related changes, and checked that the program still ran.
 
-**Time spent**:
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**:1 hour.
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 2 - [0ct 8, 2026, 1:00 AM]
+**What I did**:Implemented Feature 2 (Context Switch Counter).
 
-**Details**:
+**Details**: I added a counter to track context switches and incremented it whenever the scheduler started a process thread. I also added a message at the end of the program to display the total count.
 
-**Challenges**:
+**Challenges**: I did not encounter any major challenges while implementing this feature.
 
-**Solution**:
+**Solution**: I followed the existing scheduler code and ran the program to check that the counter was displayed.
 
-**Time spent**:
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**:1 hour.
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 3 - [[0ct 8, 2026, 3:00 pM ]
+**What I did**:Implemented Feature 3 (Waiting Time Tracking).
 
-**Details**:
+**Details**:I added arrival time and waiting time variables to the Process class. I implemented methods to set the arrival time, calculate waiting time, and retrieve the waiting time. I also added a results table displaying each process’s burst time, waiting time, and turnaround time.
 
-**Challenges**:
+**Challenges**:The first output showed unusually large waiting times and duplicate process entries in the results table.
 
-**Solution**:
+**Solution**:I corrected the arrival time handling and used a HashSet to display each process only once. I ran the program again and checked the results.
 
-**Time spent**:
+**Time spent**:2 hours.
+
+---
+
+### Entry 4 - [[0ct 7, 2026, 10:00 pM]
+**What I did**:Completed Part 1 of the assignment.
+
+**Details**:I set up my GitHub repository, updated the repository name, and completed the required student information and initial setup.
+
+**Challenges**:I needed to make sure the repository was configured correctly and followed the assignment requirements.
+
+
+**Solution**:I followed the assignment instructions and checked the repository settings.
+
+**Time spent**:30 minutes.
+
+---
+
+### Entry 5 - [[0ct 9, 2026, 2:00 pM]
+**What I did**:Tested the completed features and reviewed the program output.
+
+**Details**: I ran the program to verify the priority display, context switch counter, and waiting time results table. I also checked that each process appeared only once .in the results table.
+
+**Challenges**: I needed to make sure the output was clear and that the calculated results were displayed correctly.
+
+**Solution**: I reviewed the output after running the program and checked the results against the implemented code.
+
+**Time spent**:1 hour.
 
 ---
 
@@ -237,7 +238,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Through this assignment, I learned how multithreading concepts are applied in a Java program. I already knew that Thread.start() starts a thread, Thread.sleep() pauses a thread for a specified time, and Thread.join() makes one thread wait for another thread to finish. However, implementing the assignment helped me understand how these methods are used within a complete program. I also gained practical experience working with the scheduler and the ready queue. In addition, I learned how to track waiting time and display process results in a table. Overall, this assignment helped me practice concepts I had learned and understand how they work in code]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +246,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[The most challenging part of this assignment was working on the code using my iPad. I was able to edit the code, but I could not run the program to test it. This made it difficult to check whether my changes worked correctly. I had to continue writing the code without seeing the program’s output. As a result, I could not verify the implementation until I had access to a computer.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +254,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I overcame this challenge by opening my project on my computer after finishing the code on my iPad. I ran the program to check whether the implemented features worked correctly. When I noticed problems in the output, I reviewed the relevant parts of the code and made corrections. I ran the program again to verify the changes. This helped me make sure that the program worked as expected.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +262,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Multithreading is useful in many real-world applications. For example, web servers can use multiple threads to handle requests from different users at the same time. This helps the server respond to users more efficiently. Another example is download managers, which can perform multiple download tasks concurrently. The concepts of thread scheduling and time allocation help manage tasks and share system resources. Understanding multithreading can help me develop applications that are more responsive and efficient.]
 
 ### Optional: What would you like to learn more about?
 
@@ -293,7 +294,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[A process is a program in execution, while a thread is a unit of execution within a process. A process usually has its own memory space and resources, whereas threads within the same process share memory and resources. In this assignment, the Process class represents a simulated process, not a real operating system process. In the addProcessToQueue() method, new Thread(process) creates a Java thread that uses the Process object to perform its task. The thread begins executing when start() is called. This shows how the assignment uses Java threads to simulate process scheduling.]
 
 ## Question 2: Ready Queue Behavior
 
