@@ -212,13 +212,13 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [10 hours]
 
-**Most challenging part**:
+**Most challenging part**:Managing the multi-threaded execution flow and debugging the string formatting and compilation errors within the web-based environment without a local JDK
 
-**Most interesting learning**:
+**Most interesting learning**:Understanding how CPU scheduling algorithms operate using Java threads and queues, and how to track process priorities dynamically.
 
-**What I would do differently next time**:
+**What I would do differently next time**:Set up the local development environment with Git and JDK earlier to streamline testing and version control processes.
 
 ---
 
